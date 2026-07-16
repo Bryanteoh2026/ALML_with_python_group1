@@ -1,0 +1,23 @@
+ET0737 TELCO CHURN PROJECT - START HERE
+======================================
+
+1. Extract the ZIP file.
+2. Open Command Prompt or the VS Code terminal in this project folder.
+3. Install packages:
+   python -m pip install -r requirements.txt
+
+4. The cleaned dataset, trained model, figures and results are already included.
+   To reproduce everything, run:
+   python run_all.py
+
+5. Start the website:
+   python -m streamlit run app.py
+
+6. Open:
+   http://localhost:8501
+
+Read these files next:
+- README.md: full project explanation
+- RESULTS_SUMMARY.md: actual scores and business insights
+- AI_USAGE_AND_REFLECTION.md: GenAI acknowledgement and reflection template
+- notebooks/Telco_Churn_Project.ipynb: notebook required for submission

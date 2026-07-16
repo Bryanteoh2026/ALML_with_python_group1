@@ -1,0 +1,24 @@
+MODEL TRAINING SUMMARY
+======================
+Selected model: Tuned Random Forest
+Selection metric: Highest validation F1-score
+Training rows: 4225
+Validation rows: 1409
+Testing rows: 1409
+
+Final test metrics
+------------------
+Accuracy:  0.7580
+Precision: 0.5306
+Recall:    0.7647
+F1-score:  0.6265
+ROC-AUC:   0.8377
+
+Best Random Forest parameters
+-----------------------------
+{
+  "model__max_depth": 12,
+  "model__max_features": "sqrt",
+  "model__min_samples_leaf": 3,
+  "model__n_estimators": 120
+}

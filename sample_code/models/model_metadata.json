@@ -1,0 +1,98 @@
+{
+  "selected_model": "Tuned Random Forest",
+  "test_metrics": {
+    "Accuracy": 0.7579843860894251,
+    "Precision": 0.5306122448979592,
+    "Recall": 0.7647058823529411,
+    "F1": 0.6265060240963856,
+    "ROC_AUC": 0.8376514505670515
+  },
+  "classification_threshold": 0.5,
+  "categorical_options": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "Partner": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "No",
+      "Yes"
+    ],
+    "PhoneService": [
+      "No",
+      "Yes"
+    ],
+    "MultipleLines": [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    "InternetService": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "OnlineSecurity": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "OnlineBackup": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "DeviceProtection": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "TechSupport": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingTV": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "StreamingMovies": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "PaperlessBilling": [
+      "No",
+      "Yes"
+    ],
+    "PaymentMethod": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ]
+  },
+  "numeric_ranges": {
+    "tenure": [
+      0,
+      72
+    ],
+    "MonthlyCharges": [
+      18.25,
+      118.75
+    ],
+    "TotalCharges": [
+      0.0,
+      8684.8
+    ]
+  }
+}
