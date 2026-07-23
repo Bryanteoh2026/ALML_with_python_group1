@@ -5,9 +5,12 @@
 import pandas as pd
 import numpy as np
 
-
-def load_data(file_path):
-    pass
+def load_data():
+    df = pd.read_csv("telco_customer.csv")
+    df.head()
+    df.info()
+    df.isnull().sum().sort_values(ascending=False)
+    return df
 
 
 def check_basic_info(df):

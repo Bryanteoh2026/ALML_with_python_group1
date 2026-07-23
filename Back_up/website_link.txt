@@ -1,0 +1,9 @@
+Local website link:
+http://127.0.0.1:5000
+
+How to start it:
+1. Open a terminal inside this project folder.
+2. Run: python app.py
+3. Open http://127.0.0.1:5000 in a browser.
+
+The trained model is already included. Run python main.py only when you want to retrain the models and recreate the charts.

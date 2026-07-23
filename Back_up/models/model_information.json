@@ -1,0 +1,114 @@
+{
+    "best_model_name": "Random Forest",
+    "threshold": 0.44,
+    "feature_columns": [
+        "MonthlyRevenue",
+        "MonthlyMinutes",
+        "TotalRecurringCharge",
+        "OverageMinutes",
+        "RoamingCalls",
+        "PercChangeMinutes",
+        "PercChangeRevenues",
+        "DroppedCalls",
+        "BlockedCalls",
+        "UnansweredCalls",
+        "CustomerCareCalls",
+        "MonthsInService",
+        "UniqueSubs",
+        "ActiveSubs",
+        "Handsets",
+        "CurrentEquipmentDays",
+        "AgeHH1",
+        "RetentionCalls",
+        "RetentionOffersAccepted",
+        "IncomeGroup",
+        "HandsetPrice",
+        "HandsetRefurbished",
+        "HandsetWebCapable",
+        "Homeownership",
+        "MadeCallToRetentionTeam",
+        "CreditRating",
+        "PrizmCode",
+        "Occupation",
+        "MaritalStatus"
+    ],
+    "defaults": {
+        "MonthlyRevenue": 48.425,
+        "MonthlyMinutes": 366.0,
+        "TotalRecurringCharge": 45.0,
+        "OverageMinutes": 3.0,
+        "RoamingCalls": 0.0,
+        "PercChangeMinutes": -5.0,
+        "PercChangeRevenues": -0.3,
+        "DroppedCalls": 3.0,
+        "BlockedCalls": 1.0,
+        "UnansweredCalls": 16.3,
+        "CustomerCareCalls": 0.0,
+        "MonthsInService": 16.0,
+        "UniqueSubs": 1.0,
+        "ActiveSubs": 1.0,
+        "Handsets": 1.0,
+        "CurrentEquipmentDays": 329.0,
+        "AgeHH1": 36.0,
+        "RetentionCalls": 0.0,
+        "RetentionOffersAccepted": 0.0,
+        "IncomeGroup": 5.0,
+        "HandsetPrice": 60.0,
+        "HandsetRefurbished": "No",
+        "HandsetWebCapable": "Yes",
+        "Homeownership": "Known",
+        "MadeCallToRetentionTeam": "No",
+        "CreditRating": "2-High",
+        "PrizmCode": "Other",
+        "Occupation": "Other",
+        "MaritalStatus": "Unknown"
+    },
+    "category_options": {
+        "HandsetRefurbished": [
+            "No",
+            "Yes"
+        ],
+        "HandsetWebCapable": [
+            "No",
+            "Yes"
+        ],
+        "Homeownership": [
+            "Known",
+            "Unknown"
+        ],
+        "MadeCallToRetentionTeam": [
+            "No",
+            "Yes"
+        ],
+        "CreditRating": [
+            "1-Highest",
+            "2-High",
+            "3-Good",
+            "4-Medium",
+            "5-Low",
+            "6-VeryLow",
+            "7-Lowest"
+        ],
+        "PrizmCode": [
+            "Other",
+            "Rural",
+            "Suburban",
+            "Town"
+        ],
+        "Occupation": [
+            "Clerical",
+            "Crafts",
+            "Homemaker",
+            "Other",
+            "Professional",
+            "Retired",
+            "Self",
+            "Student"
+        ],
+        "MaritalStatus": [
+            "No",
+            "Unknown",
+            "Yes"
+        ]
+    }
+}
